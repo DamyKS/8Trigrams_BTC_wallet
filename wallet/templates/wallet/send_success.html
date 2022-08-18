@@ -1,0 +1,9 @@
+{% extends "wallet/base.html" %}
+{% load humanize %}
+
+{% block content %}
+    <p> You have successfully sent {{amount}} BTC to {{recipient_address}} </p>
+    
+    <a href="{% url 'wallet:dashboard' %}"> Wallet DashBoard </a>
+
+{% endblock content %}

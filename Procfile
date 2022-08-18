@@ -1,0 +1,1 @@
+web: gunicorn btc_wallet.wsgi --log-file -

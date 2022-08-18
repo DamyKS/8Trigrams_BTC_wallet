@@ -1,0 +1,165 @@
+#header {
+    padding: 5px 0;
+}
+a:link{
+  text-decoration: none!important;
+}
+
+#dashboard_cont {
+    padding: 10px;
+    border-radius: 15px;
+    min-height: 150px;
+    margin: auto;
+}
+
+#btc_bal {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+#dol_bal {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#btc_price {
+    color: #3333333;
+    font-size: 5px;
+    margin-left: 5px;
+}
+
+#addr {
+    color: white;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+#send_cont {
+    /*background: red;*/
+    display: inline-block;
+    /*width: 50%;*/
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;    
+    margin-top: 10px;
+}
+#receive_cont {
+    /*background: yellow;*/
+    display: inline-block;
+    /*width: 50%;*/
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;    
+    margin-top: 10px;
+}
+
+#rec_text {
+    color: white;
+    font-size: 17px;
+}
+#send_text {
+    color: white;
+    font-size: 17px;
+}
+
+#send_rec_cont {
+    /*background: green;*/
+    display: flex;      
+    justify-content: space-around;
+}
+
+#tx_head {
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+}
+
+.tx {
+    padding: 10px;
+    margin: auto; 
+    margin-bottom: 5px;
+    /* this removes the space between the spans in this cont*/
+    font-size: 0;
+    box-shadow: 3px 3px 3px gray;
+}
+#hash {
+    color: black;
+    font-size: 9px;
+    margin-left: 2px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#tx_detail {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo_text {
+    color: #1d67b1;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 11px 0 0 0;
+}
+
+#logo_pic {
+    /**/
+}
+
+#greet_text {
+    color: grey;
+    font-style: italic;    
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+#log_link {
+    color: grey;
+    font-style: italic; 
+    font-size: 12px;
+    font-weight: bolder;   
+}
+#footer {
+    margin: auto;
+}
+#nickname {
+    marigin-top: 1px;
+    text-align: center;
+    font-size: 13px;
+    font-family: cursive;
+}
+
+#no_tx_text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#copyright {
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer_icons_cont {
+    display: flex;;
+    margin: auto;
+    justify-content: space-around;
+    padding: 10px 10px;
+    max-width: 220px;
+}
