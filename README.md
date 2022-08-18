@@ -1,6 +1,7 @@
 # 8Trigrams BTC Wallet
 
 **8Trigrams** is a Bitcoin wallet web app that allows users to securely store, send and receive Bitcoins. 
+
  Tech used:
 
 Frontend:
